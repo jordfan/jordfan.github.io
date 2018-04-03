@@ -2,17 +2,27 @@
 <html>
 
 <head>
-    <style> body{padding:0; margin:0;} </style>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+    </style>
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <script src="libraries/p5.js"></script>
     <script src="libraries/p5.dom.js"></script>
     <script src="libraries/p5.sound.js"></script>
-</script>
-    <script src="dangerpaint.js"></script>
 </head>
 
 <body>
     <script src="dangerpaint.js"></script>
+    <script>
+        $(document).on('touchmove', function(e) {
+            e.preventDefault();
+        });
+
+    </script>
 </body>
 
 </html>

@@ -12,6 +12,7 @@ var textInput;
 
 function setup() {
     //load images
+
     createCanvas(windowWidth, windowHeight);
     alex = loadImage("dangerpaint/alex.png");
     charlie = loadImage("dangerpaint/charlie.png");
