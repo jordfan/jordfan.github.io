@@ -13,17 +13,17 @@ var textInput;
 function setup() {
     //load images
     createCanvas(windowWidth, windowHeight);
-    alex = loadImage("/dangerpaint/alex.png");
-    charlie = loadImage("/dangerpaint/charlie.png");
-    chloe = loadImage("/dangerpaint/chloe.png");
-    jordan = loadImage("/dangerpaint/jordan.png");
-    lisha = loadImage("/dangerpaint/lisha.png");
-    liz = loadImage("/dangerpaint/liz.png");
-    mahayla = loadImage("/dangerpaint/mahayla.png");
-    malik = loadImage("/dangerpaint/malik.png");
-    sharayha = loadImage("/dangerpaint/sharayha.png");
-    eraser = loadImage("/dangerpaint/eraser.png");
-    randomBrush = loadImage("/dangerpaint/random.png");
+    alex = loadImage(".../dangerpaint/alex.png");
+    charlie = loadImage(".../dangerpaint/charlie.png");
+    chloe = loadImage(".../dangerpaint/chloe.png");
+    jordan = loadImage(".../dangerpaint/jordan.png");
+    lisha = loadImage(".../dangerpaint/lisha.png");
+    liz = loadImage(".../dangerpaint/liz.png");
+    mahayla = loadImage(".../dangerpaint/mahayla.png");
+    malik = loadImage(".../dangerpaint/malik.png");
+    sharayha = loadImage(".../dangerpaint/sharayha.png");
+    eraser = loadImage(".../dangerpaint/eraser.png");
+    randomBrush = loadImage(".../dangerpaint/random.png");
 
     //set dangerbox array and default brush
     var dangerbox = [alex, charlie, chloe, jordan, lisha, liz, mahayla, malik, sharayha];
